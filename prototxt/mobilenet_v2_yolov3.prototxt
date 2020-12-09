@@ -2377,7 +2377,8 @@ layer {
     name: "layer74-upsample"
     type: "Upsample"
     upsample_param {
-        scale: 2
+        scale: 1
+        stride:2
     }
 }
 layer {
@@ -2692,7 +2693,8 @@ layer {
     name: "layer86-upsample"
     type: "Upsample"
     upsample_param {
-        scale: 2
+        scale: 1
+        stride:2
     }
 }
 layer {
