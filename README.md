@@ -5,7 +5,7 @@ Have tested on Ubuntu16.04LTS with Jetson-TX2 and Ubuntu16.04LTS with gtx1060;
 NOTE: You need change CMakeList.txt on Ubuntu16.04LTS with GTX1060.
 
 # Install
-git clone https://github.com/ChenYingpeng/caffe-yolov3
+git clone https://github.com/xiaoyuetang/caffe-yolov3
 
 cd caffe-yolov3
 
@@ -18,7 +18,7 @@ cmake ..
 make -j6
 
 # Darknet2Caffe
-darknet2caffe link [github](https://github.com/ChenYingpeng/darknet2caffe)
+darknet2caffe link [github](https://github.com/xiaoyuetang/darknet2caffe)
 
 
 # Demo
